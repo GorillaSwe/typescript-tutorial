@@ -1,6 +1,3 @@
-import SaySomething from "./saySomething";
+const message: string = "Hello world!";
 
-const root: HTMLElement | null = document.getElementById("root");
-
-const saySomething = new SaySomething("Hello World");
-saySomething.sayText(root);
+console.log(message);
